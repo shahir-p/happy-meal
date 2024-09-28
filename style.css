@@ -1,0 +1,676 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Poppins", system-ui;
+    color: black;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: relative;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin: 10px 20px;
+    font-family: "Cormorant Garamond", system-ui;
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family: "DM Serif Display", serif; */
+    /* font-family: "Cinzel", serif; */
+    /* font-family: "Bodoni Moda", serif; */
+}
+
+/* .navbar {
+    margin-right: 20px;
+} */
+
+.nav-items {
+    margin: 0px 10px;
+    font-family: "Poppins", system-ui;
+    font-size: 15px;
+
+
+}
+
+
+.nav-items:hover {
+    color: grey;
+
+}
+
+.consult {
+    display: inline;
+    border: 1PX solid black;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.consult:hover {
+    color: white;
+    background-color: black;
+}
+
+#checkbox {
+    display: none;
+}
+
+.icons {
+    font-size: 25px;
+    color: black;
+    position: absolute;
+   right: 5%;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+.body-container {
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/bg5.jpg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading-container {
+    width: 400px;
+    height: 200px;
+    background-color: #eef2eb;
+    border: 1.5px solid black;
+
+
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", system-ui;
+
+
+
+}
+
+.slogan {
+    padding-top: -20px;
+    font-size: 25px;
+    font-family: "Dancing Script", system-ui;
+}
+
+
+
+
+.meal-plans {
+    /* border: 2px solid black;  */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: 550px;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 20px;
+}
+
+.meal-box {
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-rows: 50% 32% 20%;
+    margin-top: 80px;
+    /* text-align: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; */
+
+
+}
+
+.box-img {
+    /* border: 2px solid black;  */
+    background-image: url(./images/family-meal.jpg);
+    background-size: cover;
+    width: 100%;
+    line-height: 2px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.box-img1 {
+    background-image: url(./images/quick.jpg);
+    background-size: cover;
+    width: 100%;
+    line-height: 2px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.box-img2 {
+    background-image: url(./images/student.jpg);
+    background-size: cover;
+    width: 100%;
+    line-height: 2px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.meal-content {
+    background-color: #eef2eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 10px;
+}
+
+.box-heading {
+
+    font-family: "Cormorant Garamond", system-ui;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+
+.box-subheading {
+    font-family: "Cormorant Garamond", system-ui;
+    margin-top: -5px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.box-slogan {
+    font-family: "Dancing Script", system-ui;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.meal-bottombox {
+    background-color: white;
+    /* margin-top: 10px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 100%;
+    height: 80vh;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px;
+}
+
+
+.contact-image {
+
+    background-image: url(./images/contact\ image.jpg);
+    background-size: cover;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-heading {
+    font-family: "Cormorant Garamond", system-ui;
+    font-size: 50px;
+}
+
+.contact-subheading {
+    font-family: "Dancing Script", system-ui;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.textfield {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 5px 0px;
+    text-align: center;
+    color: black;
+
+
+
+}
+
+.contact-box input::placeholder {
+    color: black;
+}
+
+.button {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-color: #eef2eb;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-heading {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Dancing Script", system-ui;
+    margin-left: 80px;
+}
+
+
+.icons1 {
+    margin: 0px 5px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.brand {
+    color: black;
+
+}
+
+.brand:hover {
+    color: grey;
+}
+
+.image-container {
+    width: 95%;
+    height: 200px;
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 10px;
+}
+
+.image-box {
+    background-image: url(./images/footer-img1.jpg);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(./images/footer-img4.jpg);
+}
+
+.three {
+    background-image: url(./images/footer-img2.jpg);
+}
+
+.four {
+    background-image: url(./images/footer-img5.jpg);
+}
+
+.five {
+    background-image: url(./images/footer-img3.jpg);
+}
+
+.six {
+    background-image: url(./images/cookies.jpg);
+}
+
+.footer-bottom {
+    height: 300px;
+    width: 95%;
+    margin: 0px 50px;
+    /* background-color: red; */
+    display: grid;
+    grid-template-rows: 100px 200px 100px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.bottom-box {
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.bottom-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", system-ui;
+
+
+}
+
+.bottom-list-item {
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-weight: 400;
+
+
+}
+
+.bottom-list-item:hover {
+    color: grey;
+}
+
+.bottom-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.bottom-logo img {
+    height: 100px;
+
+
+}
+
+.bottom-heading {
+    font-size: 40px;
+    font-family: "Cormorant Garamond", system-ui;
+    font-weight: 500;
+}
+
+.subheading {
+    margin-top: -5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+}
+
+.copyright {
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* media query medium */
+
+@media (max-width:760px) {
+    .logo {
+        
+        font-size: 25px;
+        font-weight: 600;
+       
+    }
+    .icons {
+        display: flex;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 70px;
+        z-index: 2;
+        background-color: white;
+        width: 100%;
+        height: 160px;
+        display: none;
+
+
+    }
+
+    .navbar a {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #close-icon {
+        display: none;
+    }
+
+    #checkbox:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    #checkbox:checked~.icons #close-icon {
+        display: block;
+    }
+
+    #checkbox:checked~.navbar {
+        display: block;
+    }
+
+    .heading-container {
+        width: 300px;
+        height: 120px;
+        background-color: #eef2eb;
+        border: 1.5px solid black;
+
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 5px;
+        color: black;
+        font-size: 30px;
+        font-family: "Cormorant Garamond", system-ui;
+    }
+
+    .slogan {
+        padding-top: -10px;
+        font-size: 22px;
+        font-family: "Dancing Script", system-ui;
+    }
+
+    .meal-plans {
+        width: 100%;
+        height: 2000px;
+        display: grid;
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: 550px;
+        justify-content: center;
+        column-gap: 80px;
+        row-gap: 20px;
+    }
+
+    .meal-box {
+
+        display: grid;
+        grid-template-rows: 50% 32% 20%;
+        margin-top: 80px;
+
+
+
+    }
+
+    .box-img {
+        /* border: 2px solid black;  */
+        background-image: url(./images/family-meal.jpg);
+        background-size: cover;
+        width: 100%;
+        line-height: 2px;
+        box-shadow: 0px 0px 10px grey;
+    }
+
+    .box-img1 {
+        background-image: url(./images/quick.jpg);
+        background-size: cover;
+        width: 100%;
+        line-height: 2px;
+        box-shadow: 0px 0px 10px grey;
+    }
+
+    .box-img2 {
+        background-image: url(./images/student.jpg);
+        background-size: cover;
+        width: 100%;
+        line-height: 2px;
+        box-shadow: 0px 0px 10px grey;
+    }
+
+    .meal-content {
+        background-color: #eef2eb;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px grey;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 450px;
+    }
+
+    .contact-heading {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .contact-subheading {
+
+        font-size: 20px;
+
+    }
+    .button {
+        margin-bottom: 20px;
+        
+    }
+    footer {
+      
+        width: 100%;
+        height: 100%;
+        background-color: #eef2eb;
+    }
+    .footer-head {
+        width: 100%;
+        text-align: center;
+        /* background-color: aqua; */
+        display:inline-table;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-heading {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: "Dancing Script", system-ui;
+        margin-left: 0px;
+       
+    }
+    .icons1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* background-color: bisque; */
+        margin: 0px 0px;
+        font-size: 25px;
+        margin-right: 0px;
+      
+       
+    }
+    
+.image-container {
+    width: 80%;
+    height: 150px;
+    margin: 40px 0px;
+    display: grid;
+    margin-left: 40px;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 10px;
+}
+.four {
+    display: none;
+    background-image: url(./images/footer-img5.jpg);
+}
+
+.five {
+    display: none;
+    background-image: url(./images/footer-img3.jpg);
+}
+
+.six {
+    display: none;
+    background-image: url(./images/cookies.jpg);
+}
+.footer-bottom {
+    height: 100%;
+    width: 95%;
+    margin: 0px 20px;
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  
+    justify-content: center;
+    align-items: center;
+
+
+}
+.bottom-list {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", system-ui;
+
+
+}
+.copyright {
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+}
+}
