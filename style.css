@@ -513,8 +513,8 @@ footer {
         grid-template-columns: repeat(1, 280px);
         grid-template-rows: 550px;
         justify-content: center;
-        column-gap: 80px;
-        row-gap: 20px;
+        /* column-gap: 80px; */
+        /* row-gap: 20px; */
     }
 
     .meal-box {
